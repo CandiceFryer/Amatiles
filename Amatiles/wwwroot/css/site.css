@@ -77,3 +77,54 @@ body {
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
 }
+
+#navbarSupportedContent {
+    
+}
+
+.navbar {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media(max-width:991px) {
+    .navbar {
+        background-image: url('../images/009.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+
+@media(min-width:992px){
+    .navbar {
+        padding-top: 255px;
+        background-image: url('../images/009.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+
+.navbar-nav a {
+    background-color: gray;
+    padding: 2px;
+    border-radius: 15px 15px 5px 5px;
+    background-image: linear-gradient(to right,#DCDCDC,#FFFFFF);
+    margin:2px;
+    height:60px;
+    width:165px;
+    line-height: 45px;
+    text-align:center;
+
+}
+
+    .navbar-nav a:hover {
+        background-image: linear-gradient(to right,#DCDCDC,orange);
+    }
+
+    .logo {
+        text-align: center;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
